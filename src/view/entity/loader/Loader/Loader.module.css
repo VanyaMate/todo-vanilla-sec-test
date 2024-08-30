@@ -1,0 +1,19 @@
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-left: 2px dotted #55F;
+    border-bottom: 2px solid #66F;
+    border-top: 2px dashed #77F;
+    animation: loading 1s infinite ease-in-out;
+}

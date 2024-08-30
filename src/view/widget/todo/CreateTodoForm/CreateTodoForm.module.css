@@ -1,0 +1,6 @@
+.container {
+    &.adding {
+        opacity: .6;
+        pointer-events: none;
+    }
+}
